@@ -1,0 +1,36 @@
+.done {
+  text-decoration: line-through;
+  color: grey;
+}
+
+.titleColor{
+  color: white;
+}
+
+body {
+  background: linear-gradient(rgb(88, 10, 190) 10%, rgb(52, 158, 172)90%) no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+  overflow-y: auto;
+}
+
+.btnColor{
+  background: linear-gradient(rgb(88, 10, 190) 10%, rgb(52, 158, 172)90%) no-repeat center center fixed;
+  margin-bottom: 2%
+}
+
+.countermargins{
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.flexbox{
+  display: flex;
+}
+
+.categoryLabel{
+  flex-grow: 4;
+  text-align: right;
+  color: gray;
+}
